@@ -1,6 +1,8 @@
 "use client";
+import { useState } from "react";
 
 const Checkout = () => {
+  const [payOnDelivery, setPayOnDelivery] = useState(false);
   return (
     <>
       <h1 className="text-center font-bold py-3 text-3xl">Billing</h1>
@@ -45,6 +47,11 @@ const Checkout = () => {
           Pay
         </button>
       </form>
+      <hr />
+      <div className="text-center space-x-2">
+
+      <input type="radio" value={payOnDelivery}/><span>Pay on delivery</span>
+      </div>
     </>
   );
 };

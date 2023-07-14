@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const Products = () => {
   return (
     <div>
-        <h1 className="text-3xl text-center py-3 font-bold">Products</h1>
+      <h1 className=" flex text-6xl items-center justify-center text-center h-full py-3 font-bold">
+        Sign Up successful <br /> Click on a category to start shopping
+      </h1>
     </div>
-  )
-}
+  );
+};
 
-export default Products
+export default Products;

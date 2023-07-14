@@ -18,7 +18,7 @@ const ProductsNavbar = () => {
             }
         </ul>
         <Link href="/cart"><BsCart  className='mr-2 w-6 h-7' title="view cart"/></Link>
-        <Link href="/" className='px-5 py-3 rounded-md mr-5 bg-blue-200'>Back to home page</Link>
+        <Link href="/" className='px-5 py-3 rounded-md mr-5 bg-blue-300'>Back to home page</Link>
     </div>
   )
 }
